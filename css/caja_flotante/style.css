@@ -1,0 +1,38 @@
+*{
+     margin:0px;
+     padding:0px;
+}
+body{
+     background-color:#dbe6ec;
+}
+div{
+     width:55%;
+     margin:5px;
+     border:1px solid #CCC;
+     background-color:#FFF;
+     box-shadow:0px 1px 0px 1px rgb(187, 181, 181);
+}
+hr{
+     border:1px solid rgb(233, 231, 231);
+}
+header{
+     padding:10px;
+}
+main{
+     padding:10px;
+}
+footer{
+     padding:10px;
+}
+.primary{
+     background-color:#0090FF;
+     color:#FFF;
+     padding:5px 10px;
+     border-radius:5px;     
+}
+.secondary{
+     background-color:#AAA;
+     color:#FFF;
+     padding:5px 10px;
+     border-radius:5px;
+}

@@ -1,0 +1,21 @@
+body{
+     background-color: #eee;
+}
+a{
+     color:hotpink;
+     background-color: red;
+}
+a:link{
+     color:pink;
+     text-decoration:none;
+}
+a:visited{
+     color:blue;
+}
+a:active{
+     color:rgb(102, 255, 0);
+}
+a:hover{
+     color:#FFF;
+     background-color:rgb(146, 50, 50)
+}
