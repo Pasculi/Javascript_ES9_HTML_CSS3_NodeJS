@@ -4,6 +4,9 @@ body{
 a{
      color:hotpink;
      background-color: red;
+     padding: 5px;
+     border-radius: 4px;
+     border: 1px solid #000
 }
 a:link{
      color:pink;
@@ -13,9 +16,83 @@ a:visited{
      color:blue;
 }
 a:active{
-     color:rgb(102, 255, 0);
+     background-color:rgb(102, 255, 0);
 }
 a:hover{
      color:#FFF;
      background-color:rgb(146, 50, 50)
 }
+
+/*=============================================
+=            Listas                           =
+=============================================*/
+#lista1{
+     width:300px;
+     list-style-type:upper-roman;
+     background-color:#FFF;
+     border:1px solid #ddd;
+     border-radius:5px;
+     padding-left:30px;
+     padding-top:5px ;
+     padding-bottom:5px;
+
+}
+#lista2{
+     width:300px;
+     list-style-type:upper-alpha;
+     background-color:rgb(197, 89, 89);
+     border:1px solid #ddd;
+     border-radius:5px;
+     padding-left:30px;
+     padding-top:5px ;
+     padding-bottom:5px;
+     color:#FFF;
+}
+#lista3{
+     width:300px;
+     list-style-type:lower-greek;
+     background-color:rgb(29, 172, 41);
+     border:1px solid #ddd;
+     border-radius:5px;
+     padding-left:30px;
+     color:#FFF;
+     padding-top:5px ;
+     padding-bottom:5px;
+}
+li{
+     border-bottom: 1px solid #ddd;
+}
+/*=====  End of Listas block  ======*/
+
+
+/*=============================================
+=            Section Tablas            =
+=============================================*/
+table{
+     width:300px;
+     background-color:rgb(255, 255, 255);
+     border-collapse:collapse;
+}
+thead{
+     background-color: #009003;
+     color: #fff;
+}
+tr:nth-child(even){
+     background-color:rgb(14, 162, 199);
+     color: #fff;
+}
+table thead th{
+     padding: 8px;
+     text-align:left;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 15px;
+
+}
+td{
+     border: 1px solid #ddd;
+     padding: 8px;
+}
+
+
+/*=====  End of Section Tablas  ======*/
+
