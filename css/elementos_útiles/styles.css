@@ -1,0 +1,36 @@
+body{
+     background-color: #eee;
+     font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
+}
+ul {
+     list-style-type: none;
+     background-color: #333;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     left: 0px; 
+}
+li{
+     float: left;
+}
+li a{
+     display: block;
+     text-decoration: none;
+     text-align: center;
+     padding:14px;     
+     color: #fff;         
+}
+li:hover{
+     background-color:rgba(0,0,0,0.3)
+}
+
+.active{
+     background-color: green;
+}
+.content{
+     text-align:justify; 
+     margin-top: 80px;
+}
